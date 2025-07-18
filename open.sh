@@ -6,11 +6,11 @@
 ##########################################################################
                      API="register" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1tgwA1ONkGHoFRKNyCF9i2HfhLqhj7_qDkCf0H6MwkbI/edit?gid=1669863692#gid=1669863692" 
-                     id="3"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="100";            #จำนวนผู้ใช้งาน
+                     id="9"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     user="4000";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
-                     cid="03"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)
+                     cid="015"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)
                                             #scenario="3" ยิงเเบบกำหนด request แต่ไม่แม่นยำ (duration กี่วินาทีก็ได้)
                      status="normal"        #พิมพ์คำว่า "normal" เพื่อยิงโหลดเเละ upload report ไปที่ sheet
                                             #พิมพ์คำว่า "report" upload report ล่าสุดไปที่ sheet

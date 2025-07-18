@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import { FormData } from 'https://jslib.k6.io/formdata/0.0.2/index.js';
 
-const imgPath = open('../file/ersrdee225.jpg', 'b'); // binary mode
+const imgPath = open('../file/images.jpg', 'b'); // binary mode
 export function register(cid) {
   const cid1 = `${__VU}${__ITER}`+''+cid;
   const url = 'https://fdh.moph.go.th/fwf_api/v1/auth/portal/bio-id/register';
