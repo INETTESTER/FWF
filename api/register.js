@@ -48,7 +48,10 @@ export function register(cid) {
     'Cookie': '__cfruid=5d6b8e322de6b4c57a33fe0c3f16c9cd579eedf3-1752739375'
   };
 
-  const res = http.post(url, formData.body(), { headers });
+  const res = http.post(url, formData.body(), {
+    headers,
+    timeout: '120s' // ✅ ตรงนี้ถึงจะมีผล
+  });
 
   //console.log('Response Body:', res.body);
 
