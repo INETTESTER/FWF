@@ -22,7 +22,7 @@ export function lookup_person() {
 
   const res = http.post(url, payload, { headers });
 
-  console.log('Response body:', res.body);
+  //console.log('Response body:', res.body);
 
   return res;
 }
