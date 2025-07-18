@@ -50,7 +50,7 @@ export function register(cid) {
 
   const res = http.post(url, formData.body(), {
     headers,
-    timeout: '120s' // ✅ ตรงนี้ถึงจะมีผล
+    timeout: '180s' // ✅ ตรงนี้ถึงจะมีผล
   });
 
   //console.log('Response Body:', res.body);
