@@ -13,8 +13,8 @@ import { lookup_person } from '../api/lookup_person.js';
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  //response = register()
-  response = lookup_person()
+  response = register(cid)
+  //response = lookup_person()
   
   error_check(response);
   sleep(1)
