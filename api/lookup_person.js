@@ -11,7 +11,7 @@ export function lookup_person() {
     register_end_date: "",
     cid: "",
     passport_no: "",
-    size: 100,
+    size: 10,
     page: 1
   });
 
